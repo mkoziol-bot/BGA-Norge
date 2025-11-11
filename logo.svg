@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0D1F3C"/>
+      <stop offset="1" stop-color="#2AB8B0"/>
+    </linearGradient>
+    <style>
+      .brand { font-family: 'Poppins', sans-serif; font-weight:700; }
+      .strap { font-family: 'Poppins', sans-serif; font-weight:500; fill:#7E7E7E; }
+    </style>
+  </defs>
+  <!-- stylized cable arc forming part of B -->
+  <g transform="translate(20,20)">
+    <path d="M10 110 C 60 10, 140 10, 190 110" stroke="url(#g)" stroke-width="12" fill="none" stroke-linecap="round" />
+    <!-- inner thinner curve -->
+    <path d="M20 110 C 70 30, 130 30, 180 110" stroke="#0D1F3C" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.12"/>
+    <!-- Letters B G A -->
+    <text x="220" y="92" class="brand" font-size="64" fill="#0D1F3C">B G A</text>
+    <text x="220" y="138" class="strap" font-size="20">Norge</text>
+    <text x="380" y="138" class="strap" font-size="16" fill="#2AB8B0">Electrical & Network Installations</text>
+  </g>
+</svg>
